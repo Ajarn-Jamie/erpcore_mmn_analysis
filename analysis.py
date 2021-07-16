@@ -75,8 +75,7 @@ ss_measure = ss_array[:, measure_window].mean(1)
 sd_measure = sd_array[:, measure_window].mean(1)
 ds_measure = ds_array[:, measure_window].mean(1)
 
-# Save ERP measurements to .csv file
-# (for calculating Bayes factors in R)
+# Save ERP measurements to .csv file (for calculating Bayes factors in R)
 data = np.c_[ss_measure, sd_measure, ds_measure]
 np.savetxt('erpcore_mean_amp.csv', data, delimiter=',')
 
