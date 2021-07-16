@@ -5,6 +5,6 @@ Data inside the "ERPCORE_MMN_SET_FILES" folder was copied from ERP CORE by Emily
 
 The file "analysis.py" preprocesses and analyzes data in the "ERPCORE_MMN_SET_FILES" folder
 
-The file "bayes_factors.r" calculates pairwise t-test Bayes factors.
+The file "bayes_factors.r" calculates pairwise t-test Bayes factors between mean amplitudes measured over 125-225 ms from consecutive 80 dB standards (sS), 70 dB deviants after 80 dB standards (sD), and 80 dB standards after 70 dB deviants (dS).
 
 These sripts are shared under the terms of a Creative Commons license (CC BY-SA 4.0).
