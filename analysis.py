@@ -50,9 +50,9 @@ for subject_id in range(1, 41):
                         event_id = event_id,
                         reject = {'eeg': 150e-6})
 
-    ss = epochs['1'].average(picks=['FCz'])
-    sd = epochs['2'].average(picks=['FCz'])
-    ds = epochs['3'].average(picks=['FCz'])
+    ss = epochs['1'].average()
+    sd = epochs['2'].average()
+    ds = epochs['3'].average()
 
     ss_list.append(ss.data[0])
     sd_list.append(sd.data[0])
