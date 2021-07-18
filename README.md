@@ -1,7 +1,5 @@
 # ERPCORE Scripts
-This repository contains scripts for preprocessing and analyzing the ERPCORE MMN dataset
-
-Data inside the "ERPCORE_MMN_SET_FILES" folder was copied from ERP CORE by Emily S. Kappenman and  Steven J. Luck (https://doi.org/10.18115/D5JW4R).
+This repository contains scripts for preprocessing and analyzing the MMN dataset from ERP CORE by Emily S. Kappenman and  Steven J. Luck (https://doi.org/10.18115/D5JW4R).
 
 To run these scripts, first download the ERP CORE MMN dataset, then save the "*.set*" and "*.fdt*" files in a folder named "ERPCORE_MMN_SET_FILES" located in a level above the directory containing the scripts.
 
